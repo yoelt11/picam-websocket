@@ -1,0 +1,17 @@
+#---- CONNECTION OPTIONS
+CONNECTION:
+  HOST: "10.0.0.45" # Gateway default is 10.0.0.1
+  PORT: "6000"
+
+#---- CAMERA OPTIONS
+LOCAL_CAMARA: False
+FPS: 5
+
+#---- POSE_DETECTION CONSTANTS
+POSE_DETECTION:
+  STATUS: False
+  MODEL_DIR: "/home/etorres/Documents/in-work/models/pose-detection-models/lite-model_movenet_singlepose_thunder_tflite_float16_4.tflite"
+
+#---- RECORD_VIDEO CONSTANTS
+VIDEO_RECORD:
+  STATUS: True
